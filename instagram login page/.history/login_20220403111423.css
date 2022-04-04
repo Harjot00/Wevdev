@@ -1,0 +1,22 @@
+body{
+    text-align: center;
+}
+#parent{
+    margin-top:32px;
+    
+    
+}
+img{
+    display: inline;
+}
+#overlay{
+    position:relative;
+    right:175px;
+    top:25px;
+}
+#login{
+    height: 538.84px;
+    width:350px;
+    border:1px solid rgb(87, 87, 87);
+    display: inline-block;
+}

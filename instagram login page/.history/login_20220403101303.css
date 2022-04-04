@@ -1,0 +1,12 @@
+body{
+    text-align: center
+}
+#parent{
+    margin:32px auto 0;
+    
+}
+#overlay{
+    position:relative;
+    right:175px;
+    top:25px;
+}

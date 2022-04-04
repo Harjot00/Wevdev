@@ -1,0 +1,28 @@
+
+#parent{
+    margin-top:32px;
+    display:flex;
+    justify-content: center;    
+}
+
+
+#overlay{
+    position:relative;
+    right:175px;
+    top:25px;
+}
+#login{
+    height: 538.84px;
+    width:350px;
+    border:0.5px solid rgb(211, 211, 211);
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    right:8em;
+
+}
+h1{
+    font-family: 'Send Flowers', cursive;
+    font-size:48px;
+    font-weight: bold;
+}
