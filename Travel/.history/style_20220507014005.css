@@ -1,0 +1,11 @@
+body{
+    font-family:"Quicksand",sans-serif;
+    margin: 0;      
+}
+nav{
+    margin:15px 35px 25px 35px;
+}
+
+ ul {
+    list_style: none;
+}

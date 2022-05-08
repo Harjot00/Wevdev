@@ -1,0 +1,21 @@
+body{
+    font-family:"Quicksand",sans-serif;
+    margin: 0;      
+}
+nav{
+    margin:15px 35px 25px 35px;
+    display:flex;
+}
+
+ul {
+    list-style: none;
+    display:flex;
+    justify-content: space-evenly;
+}
+nav>a{
+    margin-right:60%;
+
+}
+li{
+    margin:0px 10px 0px 10px;
+}

@@ -1,0 +1,87 @@
+body{
+    font-family:"Quicksand",sans-serif;
+    margin: 0; 
+        
+}
+nav{
+    margin:15px 35px 25px 35px;
+    display:flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+nav ul {
+    list-style: none;
+    display:flex;
+    justify-content: space-between;
+}
+nav >a{
+    
+    text-decoration: none;
+    font-size:32px;
+    font-weight: bold;
+    color:white;
+    
+    
+
+}
+li a{
+    margin:0px 10px 0px 10px;
+    text-decoration: none;
+    color:white;
+}
+#background{
+    background-image:url(background.jpg);
+    height: 600px;
+    margin-top:-220px;
+    width: 100%;
+    
+}
+#centercontent{
+    padding:35px 25px 35px 25px;
+    text-align: center;
+    margin:150px auto 250px;
+    background-color:black ;
+    opacity:0.7;
+    color:white;
+    width:500px;
+    border-radius:5px;
+    position:relative;
+    top:150px;
+}
+div > a{
+    background-color:rgb(188, 228, 28);
+    text-decoration: none;
+    padding:10px 25px 10px 25px;
+    display:inline-block;
+    color:black;
+    font-weight:bold;
+    border-radius:5px;
+    
+}
+section{
+    background-color:rgb(178, 211, 255);
+}
+
+section ul{
+    
+    display:flex;
+    width:100%;
+    box-sizing: border-box;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0 20px ;
+    
+    
+}
+ul li img{
+    height:300px;
+    width:300px;
+    object-fit: cover;
+    border-radius:8px;
+    
+}
+

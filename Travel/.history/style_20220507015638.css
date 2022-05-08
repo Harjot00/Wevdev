@@ -1,0 +1,29 @@
+body{
+    font-family:"Quicksand",sans-serif;
+    margin: 0;      
+}
+nav{
+    margin:15px 35px 25px 35px;
+    display:flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+ul {
+    list-style: none;
+    display:flex;
+    justify-content: space-evenly;
+}
+nav >a{
+    margin-right:75%;
+    text-decoration: none;
+    font-size:32px;
+    font-weight: bold;
+    
+
+}
+li a{
+    
+    text-decoration: none;
+    color: black;
+}
