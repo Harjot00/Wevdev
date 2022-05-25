@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Send+Flowers&display=swap');
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #6b35ff;
+    margin:0 0 2rem 0;
+    padding: 2rem 0;
+    color:white;
+    text-align: center;
+}
+#curtain {
+    text-align: center;
+    width:100vw;
+    height:100vh;
+    position:absolute;
+    top:0;
+    left:0;
+    background-color: rgba(0,0,0,0.8);
+    display:none;
+
+}
+aside{
+    display:none;
+    position:absolute;
+    top:30%;
+    width:100vw;
+    
+    
+    
+}
+
+aside div h2{
+    margin:0.7rem 0;    
+}
+aside div input {
+    display:block;
+    margin:1rem auto;
+    height:1.6rem;
+    width:50%;
+}
+ #playerinput{
+    margin:0 auto;
+    padding:0.8rem;
+    background-color:white;
+    border-radius: 6px;
+    width:50%;
+    text-align: center;
+    
+    
+}
+
+.btn-class{
+    padding:0.5rem 1.3rem;
+    font-size:1rem;
+    border:1px solid;
+    border-radius: 4px;
+}
+#player1editbtn:hover{
+    cursor:pointer;
+    background-color:#ac8eff;
+    
+}
+#player2editbtn:hover{
+    cursor:pointer;
+    background-color:#ac8eff;
+    
+}
+
+
+#btn-div button:hover{
+    background-color: #895eff;
+    color:white;
+    border-color: #441daf;
+    cursor: pointer;
+} 
+#cancel-btn:hover{
+    cursor: pointer;
+    background-color:#ac8eff;
+    color: white;
+}
+#confirm-btn{
+    background-color: #895eff;
+    color:white;
+}
+#confirm-btn:hover{
+    cursor: pointer;
+    background-color:#6831ff;
+    color: white;
+}
+#gamestyle ol{
+    display:flex;
+    list-style: none;
+    padding:0px;
+    justify-content: center;
+}
+#gamestyle li{
+    padding:0.8rem;
+    margin: 15px;
+    width:25%;
+    background-color: #dccfff;
+    text-align:center;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 4px;
+
+}
+#gamestyle li h3{
+    color:#3c0cc0;
+}
+#start-btn{
+    padding:0.5rem 1.3rem;
+    font-size:1rem;
+    border:1px solid rgb(96, 0, 148);
+    border-radius: 4px;
+    background-color:#895eff;
+    color:white;
+    margin:0 auto;
+    display:block;
+    
+
+}
+#start-btn:hover{
+    cursor: pointer;
+    background-color:#6430f4;
+}
+#game-over{
+    width:45%;
+    margin:25px auto;
+    background-color:#160052;
+    padding:20px 0px;
+    color:white;
+    display:none;
+}
+.game-board{
+    list-style: none;
+    display:none;
+    grid-template-columns: repeat(3,100px);
+    grid-template-rows: repeat(3,100px);
+    justify-content: center;
+    padding:0;
+    gap:6px;
+    margin:25px 0;
+    
+}
+.game-board li {
+    background-color:#ad8fff;
+}
+.game-board li:hover{
+    background-color:#6c36ff;
+}
+section{
+    text-align: center;
+}
+#current-player{
+    display:none;
+}
+.game-li{
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    font-size: 3rem;
+    font-weight: bold;
+
+}
+@media only screen and (max-width: 768px){
+    #gamestyle li{
+         width:30%;}
+    
+    #playerinput{
+        width:70vw;
+    }
+
+    #playerinput h2{
+        font-size:1rem;
+
+    }
+    #playerinput button{
+        padding:0.3rem 1rem;
+    }
+    #playerinput input{
+        width:70%;
+        margin:20px auto;
+    }
+    
+}
+

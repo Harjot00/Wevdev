@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Send+Flowers&display=swap');
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #6b35ff;
+    margin:0 0 2rem 0;
+    padding: 0.5rem 0;
+    color:white;
+    text-align: center;
+}
+aside {
+    text-align: center;
+    margin:1rem auto;
+    width:60vw;
+    color:white;
+    padding:0.8rem;
+    background-color:#6b35ff;
+    overflow: wrapped;
+}
+aside h2{
+    margin:0.5rem 0;    
+}
+aside input {
+    display:block;
+    margin:1rem auto;
+    height:1.6rem;
+    width:50%;
+}
+#btn-div button{
+    padding:0.5rem 1.5rem;
+
+    
+    
+}
