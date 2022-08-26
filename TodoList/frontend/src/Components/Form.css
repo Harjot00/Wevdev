@@ -1,0 +1,19 @@
+form{
+    display: flex;
+    justify-content:center;
+    padding: 15px 15px;
+}
+
+.newTask{
+    width:60%;
+    height: 40px;
+    margin: 0px 15px 0px 0px;
+    border-radius: 30px;
+    border: none;
+}
+.NewTaskbtn{
+    height: 46px;
+    aspect-ratio: 1;
+    border-radius:50% ;
+    border: none;
+}

@@ -1,0 +1,50 @@
+
+
+.taskList{
+    width: 80%;
+    margin: 15px auto;
+    display:flex;
+    justify-content: center;
+    padding: 0px;
+    flex-direction: column;
+
+}
+
+.listStyle{
+    list-style: none;
+    display: flex;
+    justify-content:center;
+
+}
+
+.pStyleComplete{
+    background-color: #25ff71;
+    width:40%;
+    height: 40px;
+    margin: 0px 7.5px 25px 7.5px;
+    border-radius: 30px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pStyleIncomplete{
+    background-color: #4CC9F0;
+    width:40%;
+    height: 40px;
+    margin: 0px 7.5px 25px 7.5px;
+    border-radius: 30px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.taskStatus{
+    
+        height: 46px;
+        aspect-ratio: 1;
+        border-radius:50% ;
+        border: none;
+        margin: 0px 7.5px 0px 7.5px;
+    
+}

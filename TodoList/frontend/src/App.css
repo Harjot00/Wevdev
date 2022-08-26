@@ -1,0 +1,15 @@
+html{
+  background: linear-gradient(to bottom right, #3F37C9,#F72585);
+  background-size: cover;
+  height: 100vh;
+}
+
+.items{
+  width:70%;
+  margin:60px auto;
+  display:block;
+  justify-content: center;
+  text-align: center; 
+
+}
+
