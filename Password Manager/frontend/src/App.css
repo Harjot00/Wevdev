@@ -1,0 +1,34 @@
+body{
+  background-image: url("https://images.unsplash.com/photo-1510511459019-5dda7724fd87?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80");
+  background-size:cover;
+  background-repeat:repeat;
+  height:100vh;
+  color:rgb(49, 255, 49);
+}
+
+.App{
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  
+}
+
+.btnclass:hover{
+  padding:8px 16px 8px 16px;
+}
+
+.btnclass{
+  border-radius:30px;
+  margin:7.5px;
+  padding:8px 12px 8px 12px;
+  border:2px solid rgb(49, 255, 49);
+  color:rgb(49, 255, 49);
+  background-color:black;
+  display:inline-block;
+  font-size:1rem;
+}
+
+
+
+
+

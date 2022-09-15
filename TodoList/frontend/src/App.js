@@ -9,7 +9,7 @@ function App() {
   const TaskRef = useRef();
 
   async function fetchData() {
-    await fetch("http://localhost:3001")
+    await fetch("http://localhost:3001/")
       .then((result) => result.json())
       .then((response) => {
         setTaskList([...response]);

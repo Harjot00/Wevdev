@@ -1,0 +1,40 @@
+.formclass{
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction:column;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+
+
+form {
+    margin: 0 auto;
+    width:50vw;
+}
+
+input{
+    width: 60vh;
+    height:30px;
+    margin: 0px 0px 15px 0px;
+    background-color:black;
+    border:2px solid rgb(49, 255, 49);
+    color:rgb(49, 255, 49);
+}
+
+::placeholder{
+    color:rgb(49, 255, 49);
+}
+
+#btn_id{
+    width:100px;
+}
+
+button[id^="btn_id"]:hover{
+    width:115px;
+    color:black;
+    background-color:rgb(49, 255, 49);
+}
