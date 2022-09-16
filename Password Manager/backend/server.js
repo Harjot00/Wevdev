@@ -14,7 +14,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 mongoose
   .connect(
-    "mongodb+srv://harjot:TYKAL32tK1CaWkeG@cluster0.7szx806.mongodb.net/?retryWrites=true&w=majority"
+   
   )
   .then(() => {
     console.log("successfully connected to database");
